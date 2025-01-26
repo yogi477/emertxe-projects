@@ -47,6 +47,9 @@ typedef enum
     failure,
     ID3v1,
     Id3v2,
+    Id3v2_2,
+    Id3v2_3,
+    Id3v2_4,
     _e
 
 

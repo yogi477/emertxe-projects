@@ -23,9 +23,14 @@ int main(int argc, char *argv[])
                 free_ptr(&mp3_metadata);
                 return 0;
            }
-           else if (read_mp3_tag == Id3v2)
+           else if (read_mp3_tag == Id3v2_3 || read_mp3_tag == Id3v2_4)
            {
                read_Id3v2_metadata(&mp3_finfo,&mp3_metadata);
+               return 0;
+           }
+           else if (read_mp3_tag == Id3v2_2)
+           {
+               read_Id3v2_2_metadata(&mp3_finfo,&mp3_metadata);
                return 0;
            }
            else

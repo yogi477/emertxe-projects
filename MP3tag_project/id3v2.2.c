@@ -27,7 +27,7 @@ Status read_frames_2_2(mp3_fileinfo *mp3_finfo,mp3_data *mp3_metadata)
     frames[3] = '\0';
     frm_cnt = data[4];
     
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < 8; i++)
     {
        if (strcmp(id3v2_2_frames[i],frames) == 0)
        {

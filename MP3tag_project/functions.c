@@ -303,23 +303,26 @@ Status Read_Tag(mp3_fileinfo *mp3_finfo,mp3_data *mp3_metadata)
         {                           
             mp3_metadata->Tag = (char*)malloc(sizeof(char) * strlen("ID3v2")); 
             strcpy(mp3_metadata->Tag,"ID3v2");
+            return Id3v2;
         }
         else if(data[3] == 0x02)
         {
              mp3_metadata->Tag = (char*)malloc(sizeof(char) * strlen("ID3v2.2"));
              strcpy(mp3_metadata->Tag,"ID3v2.2");
+             return Id3v2_2;
         }
         else if(data[3] == 0x03)
         {
              mp3_metadata->Tag = (char*)malloc(sizeof(char) * strlen("ID3v2.3"));
              strcpy(mp3_metadata->Tag,"ID3v2.3");
+             return Id3v2_3;
         }
         else if(data[3] == 0x04)
         {
             mp3_metadata->Tag = (char*)malloc(sizeof(char) * strlen("ID3v2.4"));
             strcpy(mp3_metadata->Tag,"ID3v2.4");
+            return Id3v2_4;
         }
-        return Id3v2;
     }
     else if (strncmp(data,"TAG",3) != 0)
     {
