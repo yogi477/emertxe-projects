@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
                 free_ptr(&mp3_metadata);
                 return 0;
            }
-           else if (read_mp3_tag == Id3v2_3 || read_mp3_tag == Id3v2_4)
+           else if (read_mp3_tag == Id3v2_3)
            {
                read_Id3v2_metadata(&mp3_finfo,&mp3_metadata);
                return 0;
@@ -33,6 +33,11 @@ int main(int argc, char *argv[])
                read_Id3v2_2_metadata(&mp3_finfo,&mp3_metadata);
                return 0;
            }
+           else if (read_mp3_tag == Id3v2_4)
+            {
+                fprintf(stderr,"This application not support ID3v2.4\n");
+                    return 1;
+            }
            else
            {
                 return 1;
@@ -42,7 +47,7 @@ int main(int argc, char *argv[])
        else if(operation_type == _e)
        {
             read_mp3_tag = Read_Tag(&mp3_finfo,&mp3_metadata);
-            if(read_mp3_tag == Id3v2)
+            if(read_mp3_tag == Id3v2_3)
             {
                 if(edit_id3v2(&mp3_finfo,&mp3_metadata,argv[1]) == success)
                     return 0;
@@ -54,6 +59,11 @@ int main(int argc, char *argv[])
                 if(edit_id3v1(&mp3_finfo,argv[1]) == success)
                     return 0;
                 else
+                    return 1;
+            }
+            else if (read_mp3_tag == Id3v2_4)
+            {
+                fprintf(stderr,"This application not support ID3v2.4\n");
                     return 1;
             }
             
