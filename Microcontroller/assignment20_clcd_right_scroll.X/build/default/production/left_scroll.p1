@@ -1,0 +1,46 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"1 left_scroll.c
+[; ;left_scroll.c: 1: void Left_scrolling(unsigned char str[])
+[v _Left_scrolling `(v ~T0 @X0 1 ef1`*uc ]
+"2
+[; ;left_scroll.c: 2: {
+{
+[e :U _Left_scrolling ]
+"1
+[; ;left_scroll.c: 1: void Left_scrolling(unsigned char str[])
+[v _str `*uc ~T0 @X0 1 r1 ]
+"2
+[; ;left_scroll.c: 2: {
+[f ]
+"3
+[; ;left_scroll.c: 3:        char temp = str[0];
+[v _temp `uc ~T0 @X0 1 a ]
+[e = _temp -> *U + _str * -> -> 0 `i `x -> -> # *U _str `i `x `uc ]
+"4
+[; ;left_scroll.c: 4:         for(int i = 0;i <= 15;i++)
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ <= _i -> 15 `i 2  ]
+[e $U 3  ]
+[e :U 2 ]
+"5
+[; ;left_scroll.c: 5:         {
+{
+"6
+[; ;left_scroll.c: 6:             str[i] = str[i+1];
+[e = *U + _str * -> _i `x -> -> # *U _str `i `x *U + _str * -> + _i -> 1 `i `x -> -> # *U _str `i `x ]
+"7
+[; ;left_scroll.c: 7:         }
+}
+[e ++ _i -> 1 `i ]
+[e $ <= _i -> 15 `i 2  ]
+[e :U 3 ]
+}
+"8
+[; ;left_scroll.c: 8:         str[15] = temp;
+[e = *U + _str * -> -> 15 `i `x -> -> # *U _str `i `x -> _temp `uc ]
+"10
+[; ;left_scroll.c: 10: }
+[e :UE 1 ]
+}
