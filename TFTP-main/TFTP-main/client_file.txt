@@ -1,0 +1,10 @@
+What are the different types of datatypes? What are the sizes of the datatypes? 
+Explain typecasting with an example.
+What is the difference between definition and declaration?
+What are the different types of bitwise operators? What is the use of each operator?
+Give an example of a switch case.
+How can we pass the arguments to a function?
+What is the difference between a conditional operator and a bit-wise operator?
+What are the conditional operators?
+Explain derived datatypes.
+What is the difference between basic datatypes and derived data types?

@@ -1,0 +1,102 @@
+What are the different types of datatypes? What are the sizes of the datatypes? 
+Explain typecasting with an example.
+What is the difference between definition and declaration?
+What are the different types of bitwise operators? What is the use of each operator?
+Give an example of a switch case.
+How can we pass the arguments to a function?
+What is the difference between a conditional operator and a bit-wise operator?
+What are the conditional operators?
+Explain derived datatypes.
+What is the difference between basic datatypes and derived data types?
+What are the conditional statements in c? List them.
+64>>1 What is the value? write the binary representation of 64
+What is the use of logical operators?
+What are bitwise operators?
+What are data types, and why do we need them?
+What characteristics are defined by data types?
+What is the difference between int and char?
+What are the different types of datatypes? What are the sizes of the datatypes? 
+Explain typecasting with an example.
+What is the difference between definition and declaration?
+What are the different types of bitwise operators? What is the use of each operator?
+Give an example of a switch case.
+How can we pass the arguments to a function?
+What is the difference between a conditional operator and a bit-wise operator?
+What are the conditional operators?
+Explain derived datatypes.
+What is the difference between basic datatypes and derived data types?
+What are the conditional statements in c? List them.
+64>>1 What is the value? write the binary representation of 64
+What is the use of logical operators?
+What are bitwise operators?
+What are data types, and why do we need them?
+What characteristics are defined by data types?
+What is the difference between int and char?
+What are the different types of datatypes? What are the sizes of the datatypes? 
+Explain typecasting with an example.
+What is the difference between definition and declaration?
+What are the different types of bitwise operators? What is the use of each operator?
+Give an example of a switch case.
+How can we pass the arguments to a function?
+What is the difference between a conditional operator and a bit-wise operator?
+What are the conditional operators?
+Explain derived datatypes.
+What is the difference between basic datatypes and derived data types?
+What are the conditional statements in c? List them.
+64>>1 What is the value? write the binary representation of 64
+What is the use of logical operators?
+What are bitwise operators?
+What are data types, and why do we need them?
+What characteristics are defined by data types?
+What is the difference between int and char?
+What are the different types of datatypes? What are the sizes of the datatypes? 
+Explain typecasting with an example.
+What is the difference between definition and declaration?
+What are the different types of bitwise operators? What is the use of each operator?
+Give an example of a switch case.
+How can we pass the arguments to a function?
+What is the difference between a conditional operator and a bit-wise operator?
+What are the conditional operators?
+Explain derived datatypes.
+What is the difference between basic datatypes and derived data types?
+What are the conditional statements in c? List them.
+64>>1 What is the value? write the binary representation of 64
+What is the use of logical operators?
+What are bitwise operators?
+What are data types, and why do we need them?
+What characteristics are defined by data types?
+What is the difference between int and char?
+What are the different types of datatypes? What are the sizes of the datatypes? 
+Explain typecasting with an example.
+What is the difference between definition and declaration?
+What are the different types of bitwise operators? What is the use of each operator?
+Give an example of a switch case.
+How can we pass the arguments to a function?
+What is the difference between a conditional operator and a bit-wise operator?
+What are the conditional operators?
+Explain derived datatypes.
+What is the difference between basic datatypes and derived data types?
+What are the conditional statements in c? List them.
+64>>1 What is the value? write the binary representation of 64
+What is the use of logical operators?
+What are bitwise operators?
+What are data types, and why do we need them?
+What characteristics are defined by data types?
+What is the difference between int and char?
+What are the different types of datatypes? What are the sizes of the datatypes? 
+Explain typecasting with an example.
+What is the difference between definition and declaration?
+What are the different types of bitwise operators? What is the use of each operator?
+Give an example of a switch case.
+How can we pass the arguments to a function?
+What is the difference between a conditional operator and a bit-wise operator?
+What are the conditional operators?
+Explain derived datatypes.
+What is the difference between basic datatypes and derived data types?
+What are the conditional statements in c? List them.
+64>>1 What is the value? write the binary representation of 64
+What is the use of logical operators?
+What are bitwise operators?
+What are data types, and why do we need them?
+What characteristics are defined by data types?
+What is the difference between int and char?
